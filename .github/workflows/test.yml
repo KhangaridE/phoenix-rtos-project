@@ -1,0 +1,44 @@
+# vim:sw=2:ts=2
+name: test
+
+on:
+  workflow_call:        ##### externally callable from other workflow
+  workflow_dispatch:    ##### callable by hand from GH web
+  push:
+    branches:
+      - master
+      - 'feature/*'
+      - 'nalajcie/ci'   #### my devel branch here - triggering new version of workflow by amending commit + git push -f
+  pull_request:
+    branches:
+      - master
+      - 'feature/*'
+      - 'nalajcie/ci'
+
+  ### additional triggers like schedule can be done here (to trigger the job periodically
+
+jobs:
+
+  # single job
+  build:
+    name: build ${{ matrix.instance }}
+    runs-on: ubuntu-latest
+    strategy:  ### we can run the same job multiple times at once by using "artificial" strategy.matrix
+      matrix:
+        instance: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+    steps:
+      - name: 'random to file'
+        run: echo "$((RANDOM % 10))" > random_value
+
+      - name: 'show random'
+        run: cat random_value
+
+      # fail 10% of time
+      - name: "test random"
+        run: '[ ! "$(cat random_value)" -eq 0 ]'
+
+      # debug if failed
+      - name: Debug failures by SSH
+        if: ${{ failure() }}
+        uses: mxschmitt/action-tmate@v3
+
