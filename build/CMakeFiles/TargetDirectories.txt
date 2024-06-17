@@ -1,0 +1,7 @@
+/home/khangarid/phoenix-rtos-project-scheduling/build/CMakeFiles/lwipcore.dir
+/home/khangarid/phoenix-rtos-project-scheduling/build/CMakeFiles/lwipallapps.dir
+/home/khangarid/phoenix-rtos-project-scheduling/build/CMakeFiles/dist.dir
+/home/khangarid/phoenix-rtos-project-scheduling/build/CMakeFiles/package.dir
+/home/khangarid/phoenix-rtos-project-scheduling/build/CMakeFiles/package_source.dir
+/home/khangarid/phoenix-rtos-project-scheduling/build/CMakeFiles/edit_cache.dir
+/home/khangarid/phoenix-rtos-project-scheduling/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,353 @@
+The system is: Linux - 5.15.153.1-microsoft-standard-WSL2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/bin/i386-pc-phoenix-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/khangarid/phoenix-rtos-project-scheduling/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/bin/i386-pc-phoenix-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/khangarid/phoenix-rtos-project-scheduling/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/khangarid/phoenix-rtos-project-scheduling/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fde03/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fde03.dir/build.make CMakeFiles/cmTC_fde03.dir/build
+gmake[1]: Entering directory '/home/khangarid/phoenix-rtos-project-scheduling/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fde03.dir/CMakeCCompilerABI.c.o
+/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/bin/i386-pc-phoenix-gcc   -v -o CMakeFiles/cmTC_fde03.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/bin/i386-pc-phoenix-gcc
+Target: i386-pc-phoenix
+Configured with: ../configure --target=i386-pc-phoenix --prefix=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix --with-sysroot=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix --with-gxx-include-dir=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++ --enable-languages=c,c++ --with-newlib --with-headers=yes --enable-tls --enable-initfini-array --disable-decimal-float --disable-libquadmath --disable-libssp --disable-nls --enable-threads=posix
+Thread model: posix
+gcc version 9.5.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fde03.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=i386' '-march=i386'
+ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/cc1 -quiet -v /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=i386 -march=i386 -auxbase-strip CMakeFiles/cmTC_fde03.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccz6MlRA.s
+GNU C17 (GCC) version 9.5.0 (i386-pc-phoenix)
+	compiled by GNU C version 11.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/usr/local/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/include
+ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/include-fixed
+ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/include
+ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/usr/include
+End of search list.
+GNU C17 (GCC) version 9.5.0 (i386-pc-phoenix)
+	compiled by GNU C version 11.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 337900fc092a6a3566dcabc696a39123
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fde03.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=i386' '-march=i386'
+ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/bin/as -v -o CMakeFiles/cmTC_fde03.dir/CMakeCCompilerABI.c.o /tmp/ccz6MlRA.s
+GNU assembler version 2.34 (i386-pc-phoenix) using BFD version (GNU Binutils) 2.34
+COMPILER_PATH=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/bin/
+LIBRARY_PATH=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fde03.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=i386' '-march=i386'
+Linking C executable cmTC_fde03
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fde03.dir/link.txt --verbose=1
+/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/bin/i386-pc-phoenix-gcc  -v CMakeFiles/cmTC_fde03.dir/CMakeCCompilerABI.c.o -o cmTC_fde03 
+Using built-in specs.
+COLLECT_GCC=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/bin/i386-pc-phoenix-gcc
+COLLECT_LTO_WRAPPER=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/lto-wrapper
+Target: i386-pc-phoenix
+Configured with: ../configure --target=i386-pc-phoenix --prefix=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix --with-sysroot=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix --with-gxx-include-dir=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++ --enable-languages=c,c++ --with-newlib --with-headers=yes --enable-tls --enable-initfini-array --disable-decimal-float --disable-libquadmath --disable-libssp --disable-nls --enable-threads=posix
+Thread model: posix
+gcc version 9.5.0 (GCC) 
+COMPILER_PATH=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/bin/
+LIBRARY_PATH=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fde03' '-mtune=i386' '-march=i386'
+ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/collect2 -plugin /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/liblto_plugin.so -plugin-opt=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCCrObp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix -o cmTC_fde03 /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib/crt0.o /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/crtbegin.o -L/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0 -L/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib -L/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib CMakeFiles/cmTC_fde03.dir/CMakeCCompilerABI.c.o -lgcc -lc -lgcc /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fde03' '-mtune=i386' '-march=i386'
+gmake[1]: Leaving directory '/home/khangarid/phoenix-rtos-project-scheduling/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/include]
+    add: [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/include-fixed]
+    add: [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/include]
+    add: [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/usr/include]
+  end of search list found
+  collapse include dir [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/include] ==> [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/include]
+  collapse include dir [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/include-fixed] ==> [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/include-fixed]
+  collapse include dir [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/include] ==> [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include]
+  collapse include dir [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/usr/include] ==> [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/usr/include]
+  implicit include dirs: [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/include;/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/include-fixed;/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include;/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(i386-pc-phoenix-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/khangarid/phoenix-rtos-project-scheduling/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fde03/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fde03.dir/build.make CMakeFiles/cmTC_fde03.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/khangarid/phoenix-rtos-project-scheduling/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_fde03.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/bin/i386-pc-phoenix-gcc   -v -o CMakeFiles/cmTC_fde03.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/bin/i386-pc-phoenix-gcc]
+  ignore line: [Target: i386-pc-phoenix]
+  ignore line: [Configured with: ../configure --target=i386-pc-phoenix --prefix=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix --with-sysroot=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix --with-gxx-include-dir=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++ --enable-languages=c c++ --with-newlib --with-headers=yes --enable-tls --enable-initfini-array --disable-decimal-float --disable-libquadmath --disable-libssp --disable-nls --enable-threads=posix]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.5.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fde03.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=i386' '-march=i386']
+  ignore line: [ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/cc1 -quiet -v /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=i386 -march=i386 -auxbase-strip CMakeFiles/cmTC_fde03.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccz6MlRA.s]
+  ignore line: [GNU C17 (GCC) version 9.5.0 (i386-pc-phoenix)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/usr/local/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/include]
+  ignore line: [ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/include-fixed]
+  ignore line: [ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/include]
+  ignore line: [ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 9.5.0 (i386-pc-phoenix)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 337900fc092a6a3566dcabc696a39123]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fde03.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=i386' '-march=i386']
+  ignore line: [ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/bin/as -v -o CMakeFiles/cmTC_fde03.dir/CMakeCCompilerABI.c.o /tmp/ccz6MlRA.s]
+  ignore line: [GNU assembler version 2.34 (i386-pc-phoenix) using BFD version (GNU Binutils) 2.34]
+  ignore line: [COMPILER_PATH=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/bin/]
+  ignore line: [LIBRARY_PATH=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fde03.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=i386' '-march=i386']
+  ignore line: [Linking C executable cmTC_fde03]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fde03.dir/link.txt --verbose=1]
+  ignore line: [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/bin/i386-pc-phoenix-gcc  -v CMakeFiles/cmTC_fde03.dir/CMakeCCompilerABI.c.o -o cmTC_fde03 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/bin/i386-pc-phoenix-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/lto-wrapper]
+  ignore line: [Target: i386-pc-phoenix]
+  ignore line: [Configured with: ../configure --target=i386-pc-phoenix --prefix=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix --with-sysroot=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix --with-gxx-include-dir=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++ --enable-languages=c c++ --with-newlib --with-headers=yes --enable-tls --enable-initfini-array --disable-decimal-float --disable-libquadmath --disable-libssp --disable-nls --enable-threads=posix]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.5.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/bin/]
+  ignore line: [LIBRARY_PATH=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fde03' '-mtune=i386' '-march=i386']
+  link line: [ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/collect2 -plugin /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/liblto_plugin.so -plugin-opt=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCCrObp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix -o cmTC_fde03 /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib/crt0.o /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/crtbegin.o -L/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0 -L/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib -L/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib CMakeFiles/cmTC_fde03.dir/CMakeCCompilerABI.c.o -lgcc -lc -lgcc /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/crtend.o]
+    arg [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccCCrObp.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_fde03] ==> ignore
+    arg [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib/crt0.o] ==> obj [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib/crt0.o]
+    arg [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/crtbegin.o] ==> obj [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/crtbegin.o]
+    arg [-L/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0] ==> dir [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0]
+    arg [-L/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib] ==> dir [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib]
+    arg [-L/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib] ==> dir [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib]
+    arg [CMakeFiles/cmTC_fde03.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/crtend.o] ==> obj [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/crtend.o]
+  collapse obj [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib/crt0.o] ==> [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib/crt0.o]
+  collapse library dir [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0] ==> [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0]
+  collapse library dir [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib] ==> [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib]
+  collapse library dir [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib] ==> [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib]
+  implicit libs: [gcc;c;gcc]
+  implicit objs: [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib/crt0.o;/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/crtbegin.o;/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/crtend.o]
+  implicit dirs: [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0;/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/khangarid/phoenix-rtos-project-scheduling/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8c745/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8c745.dir/build.make CMakeFiles/cmTC_8c745.dir/build
+gmake[1]: Entering directory '/home/khangarid/phoenix-rtos-project-scheduling/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8c745.dir/CMakeCXXCompilerABI.cpp.o
+/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/bin/i386-pc-phoenix-g++   -v -o CMakeFiles/cmTC_8c745.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/bin/i386-pc-phoenix-g++
+Target: i386-pc-phoenix
+Configured with: ../configure --target=i386-pc-phoenix --prefix=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix --with-sysroot=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix --with-gxx-include-dir=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++ --enable-languages=c,c++ --with-newlib --with-headers=yes --enable-tls --enable-initfini-array --disable-decimal-float --disable-libquadmath --disable-libssp --disable-nls --enable-threads=posix
+Thread model: posix
+gcc version 9.5.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8c745.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mtune=i386' '-march=i386'
+ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/cc1plus -quiet -v /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=i386 -march=i386 -auxbase-strip CMakeFiles/cmTC_8c745.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccV9eiK1.s
+GNU C++14 (GCC) version 9.5.0 (i386-pc-phoenix)
+	compiled by GNU C version 11.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/usr/local/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++
+ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++/i386-pc-phoenix
+ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++/backward
+ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/include
+ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/include-fixed
+ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/include
+ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/usr/include
+End of search list.
+GNU C++14 (GCC) version 9.5.0 (i386-pc-phoenix)
+	compiled by GNU C version 11.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d847ba09d74dcadc5ecc2d275af79dc8
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8c745.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mtune=i386' '-march=i386'
+ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/bin/as -v -o CMakeFiles/cmTC_8c745.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccV9eiK1.s
+GNU assembler version 2.34 (i386-pc-phoenix) using BFD version (GNU Binutils) 2.34
+COMPILER_PATH=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/bin/
+LIBRARY_PATH=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8c745.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mtune=i386' '-march=i386'
+Linking CXX executable cmTC_8c745
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c745.dir/link.txt --verbose=1
+/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/bin/i386-pc-phoenix-g++  -v CMakeFiles/cmTC_8c745.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8c745 
+Using built-in specs.
+COLLECT_GCC=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/bin/i386-pc-phoenix-g++
+COLLECT_LTO_WRAPPER=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/lto-wrapper
+Target: i386-pc-phoenix
+Configured with: ../configure --target=i386-pc-phoenix --prefix=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix --with-sysroot=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix --with-gxx-include-dir=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++ --enable-languages=c,c++ --with-newlib --with-headers=yes --enable-tls --enable-initfini-array --disable-decimal-float --disable-libquadmath --disable-libssp --disable-nls --enable-threads=posix
+Thread model: posix
+gcc version 9.5.0 (GCC) 
+COMPILER_PATH=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/bin/
+LIBRARY_PATH=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8c745' '-mtune=i386' '-march=i386'
+ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/collect2 -plugin /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/liblto_plugin.so -plugin-opt=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqvxtoN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix -o cmTC_8c745 /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib/crt0.o /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/crtbegin.o -L/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0 -L/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib -L/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib CMakeFiles/cmTC_8c745.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lc -lgcc /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8c745' '-mtune=i386' '-march=i386'
+gmake[1]: Leaving directory '/home/khangarid/phoenix-rtos-project-scheduling/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++]
+    add: [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++/i386-pc-phoenix]
+    add: [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++/backward]
+    add: [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/include]
+    add: [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/include-fixed]
+    add: [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/include]
+    add: [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/usr/include]
+  end of search list found
+  collapse include dir [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++] ==> [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++]
+  collapse include dir [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++/i386-pc-phoenix] ==> [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++/i386-pc-phoenix]
+  collapse include dir [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++/backward] ==> [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++/backward]
+  collapse include dir [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/include] ==> [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/include]
+  collapse include dir [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/include-fixed] ==> [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/include-fixed]
+  collapse include dir [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/include] ==> [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include]
+  collapse include dir [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/usr/include] ==> [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/usr/include]
+  implicit include dirs: [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++;/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++/i386-pc-phoenix;/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++/backward;/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/include;/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/include-fixed;/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include;/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(i386-pc-phoenix-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/khangarid/phoenix-rtos-project-scheduling/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8c745/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8c745.dir/build.make CMakeFiles/cmTC_8c745.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/khangarid/phoenix-rtos-project-scheduling/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_8c745.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/bin/i386-pc-phoenix-g++   -v -o CMakeFiles/cmTC_8c745.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/bin/i386-pc-phoenix-g++]
+  ignore line: [Target: i386-pc-phoenix]
+  ignore line: [Configured with: ../configure --target=i386-pc-phoenix --prefix=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix --with-sysroot=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix --with-gxx-include-dir=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++ --enable-languages=c c++ --with-newlib --with-headers=yes --enable-tls --enable-initfini-array --disable-decimal-float --disable-libquadmath --disable-libssp --disable-nls --enable-threads=posix]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.5.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8c745.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mtune=i386' '-march=i386']
+  ignore line: [ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/cc1plus -quiet -v /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=i386 -march=i386 -auxbase-strip CMakeFiles/cmTC_8c745.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccV9eiK1.s]
+  ignore line: [GNU C++14 (GCC) version 9.5.0 (i386-pc-phoenix)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/usr/local/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++]
+  ignore line: [ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++/i386-pc-phoenix]
+  ignore line: [ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++/backward]
+  ignore line: [ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/include]
+  ignore line: [ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/include-fixed]
+  ignore line: [ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/include]
+  ignore line: [ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 9.5.0 (i386-pc-phoenix)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: d847ba09d74dcadc5ecc2d275af79dc8]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8c745.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mtune=i386' '-march=i386']
+  ignore line: [ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/bin/as -v -o CMakeFiles/cmTC_8c745.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccV9eiK1.s]
+  ignore line: [GNU assembler version 2.34 (i386-pc-phoenix) using BFD version (GNU Binutils) 2.34]
+  ignore line: [COMPILER_PATH=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/bin/]
+  ignore line: [LIBRARY_PATH=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8c745.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mtune=i386' '-march=i386']
+  ignore line: [Linking CXX executable cmTC_8c745]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c745.dir/link.txt --verbose=1]
+  ignore line: [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/bin/i386-pc-phoenix-g++  -v CMakeFiles/cmTC_8c745.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8c745 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/bin/i386-pc-phoenix-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/lto-wrapper]
+  ignore line: [Target: i386-pc-phoenix]
+  ignore line: [Configured with: ../configure --target=i386-pc-phoenix --prefix=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix --with-sysroot=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix --with-gxx-include-dir=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/include/c++ --enable-languages=c c++ --with-newlib --with-headers=yes --enable-tls --enable-initfini-array --disable-decimal-float --disable-libquadmath --disable-libssp --disable-nls --enable-threads=posix]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.5.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/bin/]
+  ignore line: [LIBRARY_PATH=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib/:/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8c745' '-mtune=i386' '-march=i386']
+  link line: [ /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/collect2 -plugin /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/liblto_plugin.so -plugin-opt=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqvxtoN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix -o cmTC_8c745 /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib/crt0.o /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/crtbegin.o -L/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0 -L/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib -L/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib CMakeFiles/cmTC_8c745.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lc -lgcc /home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/crtend.o]
+    arg [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/libexec/gcc/i386-pc-phoenix/9.5.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccqvxtoN.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8c745] ==> ignore
+    arg [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib/crt0.o] ==> obj [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib/crt0.o]
+    arg [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/crtbegin.o] ==> obj [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/crtbegin.o]
+    arg [-L/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0] ==> dir [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0]
+    arg [-L/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib] ==> dir [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib]
+    arg [-L/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib] ==> dir [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib]
+    arg [CMakeFiles/cmTC_8c745.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/crtend.o] ==> obj [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/crtend.o]
+  collapse obj [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib/crt0.o] ==> [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib/crt0.o]
+  collapse library dir [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0] ==> [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0]
+  collapse library dir [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/../../../../i386-pc-phoenix/lib] ==> [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib]
+  collapse library dir [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib] ==> [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib]
+  implicit libs: [stdc++;m;gcc;c;gcc]
+  implicit objs: [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib/crt0.o;/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/crtbegin.o;/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0/crtend.o]
+  implicit dirs: [/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/lib/gcc/i386-pc-phoenix/9.5.0;/home/khangarid/toolchains/i386-pc-phoenix/i386-pc-phoenix/i386-pc-phoenix/lib]
+  implicit fwks: []
+
+
